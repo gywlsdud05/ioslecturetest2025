@@ -31,32 +31,13 @@ let carList: [Car] = [sonata, grandeur]
 let carList2: [Car] = [Car(color: "purple", speed: 90), Car(color: "blue", speed: 130)]
 */
 
+//let shapes: [Shape] = [Circle(), Rectangle()]
+//for item in shapes {
+//    item.draw()
+//}
+let view = ShapeView()
+view.main()
 
-class Shape {
-    func draw() {
-        print("도형을 그립니다.")
-    }
-}
-
-class Circle: Shape {
-    override func draw() {
-        print("원을 그립니다.")
-    }
-}
-
-class Rectangle: Shape {
-    override func draw() {
-        print("사각형을 그립니다.")
-    }
-}
-
-// 도형 배열 생성 및 사용
-let shapes: [Shape] = [Circle(), Rectangle()]
-
-// 각 도형의 draw() 메서드 호출
-for shape in shapes {
-    shape.draw()
-}
 
 
 
